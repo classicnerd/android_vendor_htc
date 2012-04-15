@@ -27,8 +27,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/shooter/proprietary/awb_camera:/system/bin/awb_camera \
+    vendor/htc/shooter/proprietary/awb_camera_main:/system/bin/awb_camera_main \
     vendor/htc/shooter/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/shooter/proprietary/btld:/system/bin/btld \
+    vendor/htc/shooter/proprietary/cam_ins_spmo:/system/bin/cam_ins_spmo \
     vendor/htc/shooter/proprietary/charging:/system/bin/charging \
     vendor/htc/shooter/proprietary/dcvs:/system/bin/dcvs \
     vendor/htc/shooter/proprietary/dcvsd:/system/bin/dcvsd \
@@ -39,6 +41,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/ip:/system/bin/ip \
     vendor/htc/shooter/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/shooter/proprietary/lsc_camera:/system/bin/lsc_camera \
+    vendor/htc/shooter/proprietary/lsc_camera_main:/system/bin/lsc_camera_main \
+    vendor/htc/shooter/proprietary/mmcamera_test:/system/bin/mmcamera_test \
+    vendor/htc/shooter/proprietary/mmcamera_test_main:/system/bin/mmcamera_test_main \
+    vendor/htc/shooter/proprietary/mm-qcamera-main-testsuite-client:/system/bin/mm-qcamera-main-testsuite-client \
+    vendor/htc/shooter/proprietary/mm-qcamera-main-testsuite-client-awb:/system/bin/mm-qcamera-main-testsuite-client-awb \
+    vendor/htc/shooter/proprietary/mm-qcamera-testsuite-client:/system/bin/mm-qcamera-testsuite-client \
     vendor/htc/shooter/proprietary/netmgrd:/system/bin/netmgrd \
     vendor/htc/shooter/proprietary/netsharing:/system/bin/netsharing \
     vendor/htc/shooter/proprietary/rmt_storage:/system/bin/rmt_storage \
@@ -68,6 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/libaudcal.so:/system/lib/libaudcal.so \
     vendor/htc/shooter/proprietary/libcamera.so:/system/lib/libcamera.so \
+    vendor/htc/shooter/proprietary/libcameraLN.so:/system/lib/libcameraLN.so \
+    vendor/htc/shooter/proprietary/libcameraSP.so:/system/lib/libcameraSP.so \
     vendor/htc/shooter/proprietary/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/shooter/proprietary/libdll.so:/system/lib/libdll.so \
     vendor/htc/shooter/proprietary/libdsutils.so:/system/lib/libdsutils.so \
@@ -85,9 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libmlplatform.so:/system/lib/libmlplatform.so \
     vendor/htc/shooter/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/shooter/proprietary/liboemcamera_main.so:/system/lib/liboemcamera_main.so \
     vendor/htc/shooter/proprietary/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
+    vendor/htc/shooter/proprietary/libTVOUT.so:system/lib/libTVOUT.so \
     vendor/htc/shooter/proprietary/gps.shooter.so:/system/lib/hw/gps.shooter.so \
     vendor/htc/shooter/proprietary/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
