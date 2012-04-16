@@ -99,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/shooter/proprietary/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/shooter/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
-    vendor/htc/shooter/proprietary/libTVOUT.so:system/lib/libTVOUT.so \
     vendor/htc/shooter/proprietary/gps.shooter.so:/system/lib/hw/gps.shooter.so \
     vendor/htc/shooter/proprietary/lights.msm8660.so:/system/lib/hw/lights.msm8660.so \
     vendor/htc/shooter/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
